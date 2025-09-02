@@ -5,6 +5,10 @@ Here you can find the most recent translation for Sanny Builder. This directory 
 
 ## How To Translate
 
+### Using Translation Tool (preferred)
+Use a web tool at https://translate.sannybuilder.com which is designed to work with Sanny Builder translation files, highlight missing entries and save your progress.
+
+### Manual Translation
 * The English translation is always the most up-to-date.
 * Create a copy of the _english.ini_ file and give it the name of a language you want to translate into (for example _german.ini_, _french.ini_, etc).
 * Assign a correct value for the _LANGID=X_ parameter, where _X_ is the Language ID (in the decimal format). To find out the Language ID visit this website: http://msdn.microsoft.com/en-us/goglobal/bb964664
@@ -14,10 +18,7 @@ Here you can find the most recent translation for Sanny Builder. This directory 
 
 ## Share With The Community
 
-* Submit a pull request at https://github.com/sannybuilder/translations (if comfortable with Git) or send to mail@sannybuilder.com.
-
-
-## Translating Installer Messages
-
-* The installer messages are located at the [sb-setup.iss](https://github.com/sannybuilder/installer/blob/master/sb-setup.iss#L37). 
-Submit a pull request in https://github.com/sannybuilder/installer.
+* If you spot an issue or want to share a new or updated translation, you can do it using any of the following methods:
+  * submit a pull request (if comfortable with Git)
+  * open a ticket and attach the file
+  * share the file on Discord at https://sannybuilder.com/discord
